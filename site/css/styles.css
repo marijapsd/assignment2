@@ -1,0 +1,78 @@
+.row {
+	margin-bottom: 15px;
+}
+
+.row > div>div{
+	margin: 0;
+	background-color: #a69359;
+}
+
+body{
+	font-size: 16px;
+	color: #000;
+	background-color: #d2acac;
+	font-family: 'Oxigen', sans-serif;
+
+}
+
+p{
+	margin: 10px;
+}
+/*header*/
+a{
+	color: #000;
+}
+
+#header-nav{
+	background-color: #a65959;
+	border-radius: 0;
+	border:0;
+	position: relative;
+}
+.navbar-brand a:hover,.nabar-brand a:focus{
+text-decoration: none;
+}
+.navbar-brand h1{ 
+margin-left: 0;
+	margin-top: 0;
+margin-bottom: 00;
+text-align: left;
+
+}
+#nav-list {margin-top: 10px;}
+#nav-list a{
+	color: #000;
+	text-align: center;
+}
+#nav-list a:hover{
+	background:#e7e7e7;
+}
+.navbar-header{
+	margin-bottom: 20px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border:1px solid #61122f;
+}
+
+.podnaslov{
+	text-align: center;
+}
+.container{margin: 0;
+width: 100%;}
+/* Samo za velike uredjaje */
+@media(min-width: 1200px){
+#colapsable-nav{visibility: none;}
+}
+/* Samo za srednje uredjaje */
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+/* Samo za male uredjaje */
+@media (min-width: 768px) and (max-width: 991px){
+	
+}
+
+/* Samo za mnogo male uredjaje */
+@media (max-width: 767px){
+	.nav-list .visible-xs{visibility: none;}
+}
